@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Istanbul Dreux | Cuisine Turque & Grillades | Depuis 1992</title>
+  <meta name="description" content="Restaurant Istanbul à Dreux : l'art de la cuisine turque, kebabs savoureux, lahmacuns et grillades au feu de braise. Ouvert 7j/7 de 11h à 1h du matin au 3 rue Saint-Thibault.">
+  <meta name="keywords" content="Restaurant Istanbul Dreux, cuisine turque, kebab Dreux, lahmacun, grillades au feu de braise, restaurant halal Dreux, kebabs 28100">
+  <meta name="author" content="Restaurant Istanbul Dreux">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="restaurant">
+  <meta property="og:title" content="Restaurant Istanbul Dreux | L'Art de la Cuisine Turque">
+  <meta property="og:description" content="Découvrez une cuisine turque généreuse, des kebabs savoureux, des lahmacuns et des grillades au cœur de Dreux. Depuis 1992.">
+  <meta property="og:image" content="assets/images/hero-platter-architectural.jpg">
+  <meta property="og:url" content="https://restaurantistanbul-dreux.fr">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+  <!-- Google Fonts: Cinzel, Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Schema.org JSON-LD Structured Data for Local Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Restaurant Istanbul",
+    "image": "assets/images/hero-platter-architectural.jpg",
+    "logo": "assets/images/logo-horizontal.png",
+    "@id": "https://restaurantistanbul-dreux.fr",
+    "url": "https://restaurantistanbul-dreux.fr",
+    "telephone": "+33237558597",
+    "priceRange": "€ - €€",
+    "servesCuisine": ["Turkish", "Middle Eastern", "Grill", "Halal"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3 rue Saint-Thibault",
+      "addressLocality": "Dreux",
+      "postalCode": "28100",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.7365,
+      "longitude": 1.3678
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "11:00",
+        "closes": "01:00"
+      }
+    ],
+    "sameAs": [
+      "https://wa.me/33237558597"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. Header & Navigation (Bilingual FR/EN, Sticky & Clean White)
+       ========================================================================= -->
+  <header class="header-site" id="site-header">
+    <div class="container header-container">
+      <!-- Horizontal Brand Logo on the Left -->
+      <a href="#accueil" class="brand-logo-link" aria-label="Restaurant Istanbul Dreux Accueil">
+        <img src="assets/images/logo-horizontal.png" alt="Restaurant Istanbul Dreux Depuis 1992" class="brand-logo-img">
+      </a>
+
+      <!-- Desktop Navigation on the Right -->
+      <nav class="nav-desktop" aria-label="Navigation principale">
+        <a href="#accueil" class="nav-link" data-i18n="nav.home">Accueil</a>
+        <a href="#histoire" class="nav-link" data-i18n="nav.about">Notre histoire</a>
+        <a href="#specialites" class="nav-link" data-i18n="nav.specialties">Spécialités</a>
+        <a href="#menu" class="nav-link" data-i18n="nav.menu">Menu</a>
+        <a href="#avis-clients" class="nav-link" data-i18n="nav.reviews">Avis clients</a>
+        <a href="#horaires" class="nav-link" data-i18n="nav.hours">Horaires</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <!-- Action items: Language Selector & Reserve CTA Button -->
+      <div class="header-actions">
+        <!-- Language Switcher -->
+        <div class="lang-selector" role="group" aria-label="Sélecteur de langue">
+          <button type="button" class="lang-btn active" data-lang="fr" aria-pressed="true" aria-label="Français">
+            <svg class="flag-icon" viewBox="0 0 640 480" width="16" height="12">
+              <g fill-rule="evenodd" stroke-width="1pt">
+                <path fill="#fff" d="M0 0h640v480H0z"/>
+                <path fill="#00267f" d="M0 0h213.3v480H0z"/>
+                <path fill="#f31830" d="M426.7 0H640v480H426.7z"/>
+              </g>
+            </svg>
+            <span>FR</span>
+          </button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false" aria-label="English">
+            <svg class="flag-icon" viewBox="0 0 640 480" width="16" height="12">
+              <path fill="#012169" d="M0 0h640v480H0z"/>
+              <path fill="#FFF" d="m75 0 245 180L565 0h75v60L440 240l200 150v90h-75L320 300 75 480H0v-60l200-150L0 90V0h75z"/>
+              <path fill="#C8102E" d="m424 288 216 162v30h-40L384 318zm176-288-216 162h40L640 30V0zm-384 192L0 30v40l176 132zm-40 48L0 450v30h40l176-132z"/>
+              <path fill="#FFF" d="M240 0h160v480H240zM0 160h640v160H0z"/>
+              <path fill="#C8102E" d="M280 0h80v480h-80zM0 200h640v80H0z"/>
+            </svg>
+            <span>EN</span>
+          </button>
+        </div>
+
+        <!-- Prominent Reservation CTA -->
+        <a href="#reservation" class="btn btn-primary btn-reserve-nav" data-i18n="nav.bookBtn">RÉSERVER UNE TABLE</a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="mobile-toggle" id="mobile-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Menu mobile">
+    <div class="drawer-header">
+      <img src="assets/images/logo-horizontal.png" alt="Restaurant Istanbul Dreux" class="drawer-logo">
+      <button type="button" class="drawer-close" id="drawer-close" aria-label="Fermer le menu">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#accueil" class="drawer-link" data-i18n="nav.home">Accueil</a>
+      <a href="#histoire" class="drawer-link" data-i18n="nav.about">Notre histoire</a>
+      <a href="#specialites" class="drawer-link" data-i18n="nav.specialties">Spécialités</a>
+      <a href="#menu" class="drawer-link" data-i18n="nav.menu">Menu</a>
+      <a href="#avis-clients" class="drawer-link" data-i18n="nav.reviews">Avis clients</a>
+      <a href="#horaires" class="drawer-link" data-i18n="nav.hours">Horaires</a>
+      <a href="#contact" class="drawer-link" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="drawer-footer">
+      <a href="#reservation" class="btn btn-primary text-center" style="width: 100%;" data-i18n="nav.bookBtn">RÉSERVER UNE TABLE</a>
+      <div style="text-align: center; font-size: 0.85rem; color: var(--color-sage-dark);">
+        02 37 55 85 97 · 3 rue Saint-Thibault
+      </div>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- =========================================================================
+         2. Distinctive Centered Architectural Hero Banner
+         ========================================================================= -->
+    <section class="hero-heritage" id="accueil">
+      <!-- Architectural Background SVG inspired by the Istanbul circular emblem curves -->
+      <svg class="hero-architectural-bg" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="500" cy="500" r="480" stroke="#82947C" stroke-opacity="0.12" stroke-width="1.5" stroke-dasharray="6 6"/>
+        <circle cx="500" cy="500" r="420" stroke="#82947C" stroke-opacity="0.22" stroke-width="1"/>
+        <circle cx="500" cy="500" r="350" stroke="#C5A568" stroke-opacity="0.28" stroke-width="1.2"/>
+        <circle cx="500" cy="500" r="280" stroke="#82947C" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="4 8"/>
+        <!-- Fine Sage-Green & Champagne-Gold Curved Arcs reflecting the emblem's circular wings -->
+        <path d="M 220 500 A 280 280 0 0 1 780 500" stroke="#82947C" stroke-width="1.5" stroke-opacity="0.35"/>
+        <path d="M 270 500 A 230 230 0 0 0 730 500" stroke="#C5A568" stroke-width="1" stroke-opacity="0.3"/>
+        <circle cx="500" cy="80" r="4" fill="#C5A568" fill-opacity="0.6"/>
+        <circle cx="500" cy="920" r="4" fill="#C5A568" fill-opacity="0.6"/>
+        <circle cx="80" cy="500" r="4" fill="#82947C" fill-opacity="0.5"/>
+        <circle cx="920" cy="500" r="4" fill="#82947C" fill-opacity="0.5"/>
+      </svg>
+
+      <div class="container">
+        <!-- Heritage Label Pill with Circular Emblem -->
+        <div class="heritage-badge">
+          <img src="assets/images/logo-emblem.png" alt="Emblème Restaurant Istanbul" class="heritage-badge-icon">
+          <span class="heritage-badge-text" data-i18n="hero.label">ISTANBUL · DREUX · DEPUIS 1992</span>
+        </div>
+
+        <!-- Centered Architectural Heading -->
+        <h1 class="hero-title" data-i18n="hero.title">
+          L’ART DE LA CUISINE TURQUE
+        </h1>
+
+        <!-- Supporting Copy -->
+        <p class="hero-supporting" data-i18n="hero.supporting">
+          Des saveurs authentiques, des assiettes généreuses et le plaisir de se retrouver.
+        </p>
+
+        <!-- Centered Action Buttons -->
+        <div class="hero-cta-group">
+          <a href="#specialites" class="btn btn-secondary" data-i18n="hero.btnSpecialties">
+            DÉCOUVRIR NOS SPÉCIALITÉS
+          </a>
+          <a href="#reservation" class="btn btn-outline" data-i18n="hero.btnReserve">
+            RÉSERVER UNE TABLE
+          </a>
+        </div>
+
+        <!-- Centered Architectural Platter Presentation -->
+        <div class="hero-platter-stage">
+          <div class="hero-platter-halo"></div>
+          <div class="hero-platter-frame">
+            <img src="assets/images/hero-platter-architectural.jpg" alt="Festin de grillades turques au feu de braise Restaurant Istanbul Dreux" class="hero-platter-img">
+          </div>
+
+          <!-- Overlapping Floating Badges -->
+          <div class="floating-badge badge-left">
+            <span class="floating-badge-icon">🔥</span>
+            <span data-i18n="hero.badgeGrill">Cuisson au feu de braise & broche maison</span>
+          </div>
+          <div class="floating-badge badge-right">
+            <span class="floating-badge-icon">🌿</span>
+            <span data-i18n="hero.badgeHalal">Viandes 100% Halal marinées maison</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. About Istanbul — Asymmetric Section with Food Photo & Emblem
+         ========================================================================= -->
+    <section class="about-section" id="histoire">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Asymmetric Image Column with Circular Emblem Badge -->
+          <div class="about-image-wrapper">
+            <div class="about-image-frame">
+              <img src="assets/images/dish-agneau.jpg" alt="Grillades de côtelettes d'agneau et boulgour Restaurant Istanbul Dreux" loading="lazy">
+            </div>
+            <!-- Integrated Circular Emblem Badge with Depuis 1992 -->
+            <div class="about-emblem-badge">
+              <img src="assets/images/logo-emblem.png" alt="Emblème Istanbul" class="about-emblem-img">
+              <div class="about-emblem-text">
+                <span class="about-emblem-title" data-i18n="about.sinceBadge">Depuis 1992</span>
+                <span class="about-emblem-sub" data-i18n="about.sinceSub">Maison fondée à Dreux · Plus de 30 ans de passion</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Editorial Text Block Column -->
+          <div class="about-content">
+            <div class="section-overline no-line" data-i18n="about.overline">NOTRE HISTOIRE</div>
+            <h2 class="about-heading" data-i18n="about.heading">Une invitation au voyage.</h2>
+            <p class="about-text" data-i18n="about.copy">
+              Bienvenue chez Istanbul, au cœur de Dreux. Découvrez une cuisine turque généreuse, des kebabs savoureux, des lahmacuns et des grillades dans un esprit de partage. Notre restaurant vous invite à profiter d’un moment gourmand dans un cadre convivial, autour des saveurs de la tradition culinaire turque.
+            </p>
+            <div class="about-actions">
+              <a href="#menu" class="btn btn-secondary" data-i18n="about.btnMenu">EXPLORER LA CARTE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. Why People Choose Istanbul — 3 Refined Feature Cards
+         ========================================================================= -->
+    <section class="features-section" id="engagements">
+      <div class="container">
+        <div class="features-header">
+          <div class="section-overline" data-i18n="features.overline">NOTRE ENGAGEMENT</div>
+          <h2 class="section-title" data-i18n="features.heading">Pourquoi choisir Istanbul ?</h2>
+          <p class="section-subtitle" data-i18n="features.sub">
+            L'art des saveurs authentiques et la générosité des traditions d'Anatolie, au cœur de Dreux.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Card 1: Authenticité -->
+          <article class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title" data-i18n="features.card1Title">Authenticité</h3>
+            <p class="feature-desc" data-i18n="features.card1Desc">
+              Des recettes d'Anatolie transmises avec respect, viandes marinées avec soin et épices équilibrées.
+            </p>
+          </article>
+
+          <!-- Card 2: Générosité -->
+          <article class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 12a4 4 0 0 0 8 0"></path>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title" data-i18n="features.card2Title">Générosité</h3>
+            <p class="feature-desc" data-i18n="features.card2Desc">
+              Des assiettes copieuses et savoureuses servies avec frites dorées, boulgour turc, riz maison et crudités.
+            </p>
+          </article>
+
+          <!-- Card 3: Convivialité -->
+          <article class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title" data-i18n="features.card3Title">Convivialité</h3>
+            <p class="feature-desc" data-i18n="features.card3Desc">
+              Un accueil chaleureux et sincère au cœur de Dreux pour partager d'inoubliables instants gourmands.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. Signature Specialties (Connecting Nav & Menu)
+         ========================================================================= -->
+    <section class="specialties-section" id="specialites">
+      <div class="container">
+        <div class="specialties-header">
+          <div class="section-overline" data-i18n="specialties.overline">LES INCONTOURNABLES</div>
+          <h2 class="section-title" data-i18n="specialties.heading">Nos Spécialités d'Exception</h2>
+          <p class="section-subtitle" data-i18n="specialties.sub">
+            Des préparations artisanales élaborées chaque jour avec des viandes fraîches et un savoir-faire authentique.
+          </p>
+        </div>
+
+        <div class="specialties-grid">
+          <!-- Specialty 1 -->
+          <article class="specialty-card">
+            <div class="specialty-img-wrap">
+              <img src="assets/images/dish-kebab.jpg" alt="Döner Kebab Artisanal" class="specialty-img" loading="lazy">
+              <span class="specialty-badge" data-i18n="specialties.item1Badge">Broche Maison</span>
+            </div>
+            <div class="specialty-body">
+              <h3 class="specialty-title" data-i18n="specialties.item1Title">Döner Kebab Artisanal</h3>
+              <p class="specialty-desc" data-i18n="specialties.item1Desc">
+                Viande marinée selon la tradition familiale, cuite lentement à la broche et tranchée minute.
+              </p>
+              <a href="#menu" class="specialty-link" data-specialty-target="sandwichs">
+                <span data-i18n="specialties.item1Action">Voir dans le menu</span> &rarr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Specialty 2 -->
+          <article class="specialty-card">
+            <div class="specialty-img-wrap">
+              <img src="assets/images/dish-lahmacun.jpg" alt="Lahmacun Traditionnel" class="specialty-img" loading="lazy">
+              <span class="specialty-badge" data-i18n="specialties.item2Badge">Cuit au Four</span>
+            </div>
+            <div class="specialty-body">
+              <h3 class="specialty-title" data-i18n="specialties.item2Title">Lahmacun Traditionnel</h3>
+              <p class="specialty-desc" data-i18n="specialties.item2Desc">
+                Fine galette anatolienne croustillante garnie de hachis de bœuf assaisonné et d'herbes fraîches.
+              </p>
+              <a href="#menu" class="specialty-link" data-specialty-target="lahmacun">
+                <span data-i18n="specialties.item2Action">Voir dans le menu</span> &rarr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Specialty 3 -->
+          <article class="specialty-card">
+            <div class="specialty-img-wrap">
+              <img src="assets/images/hero-grill.jpg" alt="Assiette Royale Mixte" class="specialty-img" loading="lazy">
+              <span class="specialty-badge" data-i18n="specialties.item3Badge">Grillade de Maître</span>
+            </div>
+            <div class="specialty-body">
+              <h3 class="specialty-title" data-i18n="specialties.item3Title">Assiette Royale Mixte</h3>
+              <p class="specialty-desc" data-i18n="specialties.item3Desc">
+                Festin impérial réunissant côtelette d'agneau, brochette köfte, döner kebab et poulet mariné.
+              </p>
+              <a href="#menu" class="specialty-link" data-specialty-target="assiettes">
+                <span data-i18n="specialties.item3Action">Voir dans le menu</span> &rarr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Specialty 4 -->
+          <article class="specialty-card">
+            <div class="specialty-img-wrap">
+              <img src="assets/images/dish-baklava.jpg" alt="Baklava aux Pistaches" class="specialty-img" loading="lazy">
+              <span class="specialty-badge" data-i18n="specialties.item4Badge">Pâtisserie Fine</span>
+            </div>
+            <div class="specialty-body">
+              <h3 class="specialty-title" data-i18n="specialties.item4Title">Baklava aux Pistaches</h3>
+              <p class="specialty-desc" data-i18n="specialties.item4Desc">
+                Pâte filo pur beurre croustillante, éclats de pistaches fraîches d'Anatolie et miel délicat.
+              </p>
+              <a href="#menu" class="specialty-link" data-specialty-target="desserts">
+                <span data-i18n="specialties.item4Action">Voir dans le menu</span> &rarr;
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. Opening Hours & Statistics Block (Circular Outline with Emblem & Clock)
+         ========================================================================= -->
+    <section class="hours-section" id="horaires">
+      <div class="container">
+        <!-- Distinctive Circular Hours Container with Emblem & Clock Icon -->
+        <div class="hours-circle-container">
+          <!-- Circular Emblem Integration -->
+          <img src="assets/images/logo-emblem.png" alt="Emblème Restaurant Istanbul" class="hours-emblem-center">
+
+          <!-- Centered Clock Icon -->
+          <div class="hours-clock-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+
+          <div class="hours-welcome" data-i18n="hours.headlineWelcome">NOUS VOUS ACCUEILLONS</div>
+          <div class="hours-days" data-i18n="hours.headlineDays">7 JOURS SUR 7</div>
+          <div class="hours-time" data-i18n="hours.headlineTime">11 H – 1 H DU MATIN</div>
+          <p class="hours-subnote" data-i18n="hours.subnote">
+            Service continu sur place, à emporter et en livraison au 3 rue Saint-Thibault, Dreux.
+          </p>
+        </div>
+
+        <!-- 4 Compact Statistics Blocks -->
+        <div class="stats-grid">
+          <div class="stat-block">
+            <div class="stat-number" data-i18n="stats.stat1Number">200+</div>
+            <div class="stat-label" data-i18n="stats.stat1Label">visiteurs par jour</div>
+          </div>
+          <div class="stat-block">
+            <div class="stat-number" data-i18n="stats.stat2Number">800+</div>
+            <div class="stat-label" data-i18n="stats.stat2Label">livraisons par mois</div>
+          </div>
+          <div class="stat-block">
+            <div class="stat-number" data-i18n="stats.stat3Number">100%</div>
+            <div class="stat-label" data-i18n="stats.stat3Label">retours positifs</div>
+          </div>
+          <div class="stat-block">
+            <div class="stat-number" data-i18n="stats.stat4Number">Depuis 1992</div>
+            <div class="stat-label" data-i18n="stats.stat4Label">au service de Dreux</div>
+          </div>
+        </div>
+        <p class="stats-disclaimer" data-i18n="stats.disclaimer">
+          * Les trois premières données sont fournies par l'établissement sous réserve de confirmation avant publication.
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. Customer Testimonials — 3-Card Verified Google Reviews Carousel
+         ========================================================================= -->
+    <section class="reviews-section" id="avis-clients">
+      <div class="container">
+        <div class="reviews-header">
+          <div>
+            <div class="section-overline no-line" data-i18n="reviews.overline">AVIS CLIENTS VÉRIFIÉS</div>
+            <h2 class="section-title" data-i18n="reviews.heading">Ce que nos clients disent de nous</h2>
+            <p class="section-subtitle" style="margin-left: 0;" data-i18n="reviews.sub">
+              Témoignages authentiques déposés par nos clients sur notre fiche Google Maps à Dreux.
+            </p>
+          </div>
+          <div class="reviews-badge-wrapper">
+            <span class="stars">★★★★★</span>
+            <span data-i18n="reviews.scoreText">4.8 / 5 sur Google Maps (Dreux)</span>
+          </div>
+        </div>
+
+        <!-- Carousel Track Wrapper -->
+        <div class="reviews-carousel-wrapper">
+          <div class="reviews-track" id="reviews-track">
+            <!-- Dynamically populated by main.js with verified reviews -->
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <div class="reviews-controls">
+          <button type="button" class="carousel-btn" id="prev-review" aria-label="Avis précédent">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <div class="carousel-dots" id="reviews-dots"></div>
+          <button type="button" class="carousel-btn" id="next-review" aria-label="Avis suivant">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <div style="text-align: center; margin-top: 24px;">
+          <a href="https://www.google.com/maps/search/?api=1&query=Restaurant+Istanbul+Dreux+3+rue+Saint-Thibault" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size: 0.78rem;" data-i18n="reviews.viewGoogle">
+            Voir la fiche Google Maps &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. Interactive Menu with Dynamic 12 Category Tabs
+         ========================================================================= -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="menu-header">
+          <div class="section-overline" data-i18n="menu.heading">DÉCOUVREZ NOTRE CARTE</div>
+          <h2 class="section-title" data-i18n="menu.sub">Les spécialités d’Istanbul.</h2>
+        </div>
+
+        <!-- 12 Dynamic Category Tabs (Keyboard Accessible, Horizontal Scrolling on Mobile) -->
+        <div class="menu-tabs-wrapper">
+          <div class="menu-tabs-bar" id="menu-tabs" role="tablist" aria-label="Catégories du menu">
+            <button type="button" class="menu-tab active" data-category="sandwichs" role="tab" aria-selected="true" tabindex="0">
+              <span class="tab-text">Sandwichs</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="panini" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Panini</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="crudites" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Crudités</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="barquettes-frites" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Barquettes de frites</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="barquettes-viande" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Barquettes de viande</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="assiettes" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Assiettes</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="lahmacun" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Lahmacun</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="salades" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Salades</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="desserts" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Desserts</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="boissons" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Boissons</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="menu-enfant" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Menu enfant</span>
+            </button>
+            <button type="button" class="menu-tab" data-category="supplements" role="tab" aria-selected="false" tabindex="-1">
+              <span class="tab-text">Suppléments</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Conditional Category Inclusions Notice Banner -->
+        <div class="menu-notice-box" id="menu-notice-box" role="status">
+          <!-- Dynamic notice content -->
+        </div>
+
+        <!-- Dynamic Menu Items Container -->
+        <div class="menu-grid" id="menu-items-container" role="tabpanel" aria-live="polite">
+          <!-- Populated dynamically by main.js with items from menu-data.js -->
+        </div>
+
+        <!-- Menu Bottom Final CTA Button -->
+        <div class="menu-bottom-cta">
+          <a href="#reservation" class="btn btn-primary" data-i18n="menu.btnReserve">
+            RÉSERVER UNE TABLE
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         9. Reservation Form Section (Bilingual, Validated, Instant Confirmation)
+         ========================================================================= -->
+    <section class="reservation-section" id="reservation">
+      <div class="container">
+        <div class="reservation-wrapper">
+          <div class="reservation-header">
+            <div class="section-overline no-line" data-i18n="reservation.overline">TABLES & CONVIVES</div>
+            <h2 class="section-title" data-i18n="reservation.heading">Partageons un bon moment.</h2>
+            <p class="section-subtitle" data-i18n="reservation.sub">
+              Pour déjeuner ou dîner dans une ambiance conviviale à Dreux. Remplissez le formulaire ci-dessous pour une prise en charge immédiate.
+            </p>
+          </div>
+
+          <!-- Clickable Telephone Bar -->
+          <div class="reservation-phone-strip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-gold);">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span data-i18n="reservation.directPhone">Réservation immédiate par téléphone :</span>
+            <a href="tel:0237558597">02 37 55 85 97</a>
+          </div>
+
+          <!-- Reservation Form with Validation -->
+          <form id="reservation-form" novalidate>
+            <div class="reservation-form-grid">
+              <!-- Name -->
+              <div class="form-group">
+                <label for="booking-name" class="form-label" data-i18n="reservation.nameLabel">Nom et Prénom *</label>
+                <input type="text" id="booking-name" class="form-input" placeholder="ex. Marc Dubois" data-i18n="reservation.namePlaceholder" required>
+              </div>
+
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="booking-phone" class="form-label" data-i18n="reservation.phoneLabel">Numéro de Téléphone *</label>
+                <input type="tel" id="booking-phone" class="form-input" placeholder="ex. 06 12 34 56 78" data-i18n="reservation.phonePlaceholder" required>
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label for="booking-email" class="form-label" data-i18n="reservation.emailLabel">Adresse E-mail *</label>
+                <input type="email" id="booking-email" class="form-input" placeholder="ex. marc.dubois@email.fr" data-i18n="reservation.emailPlaceholder" required>
+              </div>
+
+              <!-- Guests -->
+              <div class="form-group">
+                <label for="booking-guests" class="form-label" data-i18n="reservation.guestsLabel">Nombre de personnes *</label>
+                <select id="booking-guests" class="form-select" required>
+                  <option value="" disabled selected>Sélectionnez le nombre de convives</option>
+                  <option value="1">1 personne</option>
+                  <option value="2">2 convives</option>
+                  <option value="3">3 convives</option>
+                  <option value="4">4 convives</option>
+                  <option value="5">5 convives</option>
+                  <option value="6">6 convives</option>
+                  <option value="7+">7+ convives (Grande table)</option>
+                </select>
+              </div>
+
+              <!-- Date -->
+              <div class="form-group">
+                <label for="booking-date" class="form-label" data-i18n="reservation.dateLabel">Date souhaitée *</label>
+                <input type="date" id="booking-date" class="form-input" required>
+              </div>
+
+              <!-- Time -->
+              <div class="form-group">
+                <label for="booking-time" class="form-label" data-i18n="reservation.timeLabel">Heure souhaitée *</label>
+                <select id="booking-time" class="form-select" required>
+                  <option value="" disabled selected>Sélectionnez une heure</option>
+                  <option value="11:30">11:30</option>
+                  <option value="12:00">12:00</option>
+                  <option value="12:30">12:30</option>
+                  <option value="13:00">13:00</option>
+                  <option value="13:30">13:30</option>
+                  <option value="14:00">14:00</option>
+                  <option value="18:30">18:30</option>
+                  <option value="19:00">19:00</option>
+                  <option value="19:30">19:30</option>
+                  <option value="20:00">20:00</option>
+                  <option value="20:30">20:30</option>
+                  <option value="21:00">21:00</option>
+                  <option value="21:30">21:30</option>
+                  <option value="22:00">22:00</option>
+                  <option value="22:30">22:30</option>
+                  <option value="23:00">23:00</option>
+                  <option value="23:30">23:30</option>
+                  <option value="00:00">00:00</option>
+                </select>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group full-width">
+                <label for="booking-message" class="form-label" data-i18n="reservation.messageLabel">Message ou demande particulière (optionnel)</label>
+                <textarea id="booking-message" class="form-textarea" placeholder="Anniversaire, table au calme, chaise haute bébé, intolérances..." data-i18n="reservation.messagePlaceholder"></textarea>
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="reservation-submit-wrap">
+              <button type="submit" class="btn btn-primary" id="btn-submit-booking" data-i18n="reservation.btnSubmit">
+                RÉSERVER UNE TABLE
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Reservation Confirmation Modal Overlay -->
+  <div class="booking-modal-overlay" id="booking-modal" role="dialog" aria-modal="true" aria-labelledby="modal-booking-title">
+    <div class="booking-modal-card">
+      <div class="modal-icon-badge">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+      </div>
+      <h3 class="modal-title" id="modal-booking-title" data-i18n="reservation.modalTitle">Votre demande de réservation est prête</h3>
+      <p class="modal-desc" data-i18n="reservation.modalDesc">
+        Pour confirmer immédiatement votre table auprès de notre équipe, choisissez votre mode de contact direct :
+      </p>
+
+      <div class="modal-summary-box" id="modal-summary">
+        <!-- Injected by main.js -->
+      </div>
+
+      <div class="modal-actions">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="btn-whatsapp-confirm" data-i18n="reservation.btnWhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/>
+          </svg>
+          <span data-i18n="reservation.btnWhatsApp">Confirmer via WhatsApp (Envoi direct)</span>
+        </a>
+        <a href="tel:0237558597" class="btn btn-outline" data-i18n="reservation.btnCall">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span data-i18n="reservation.btnCall">Appeler le restaurant : 02 37 55 85 97</span>
+        </a>
+      </div>
+
+      <button type="button" class="modal-close-btn" id="modal-close" data-i18n="reservation.btnClose">Fermer</button>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       10. Multi-Column White Footer
+       ========================================================================= -->
+  <footer class="footer-site" id="contact">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand & Introduction -->
+        <div class="footer-brand">
+          <div class="footer-logos-row">
+            <img src="assets/images/logo-horizontal.png" alt="Restaurant Istanbul Dreux" class="footer-logo-horizontal">
+            <img src="assets/images/logo-emblem.png" alt="Emblème Istanbul" class="footer-logo-emblem">
+          </div>
+          <div class="footer-intro-lines">
+            <p data-i18n="footer.introLine1">Au cœur de Dreux depuis 1992, le Restaurant Istanbul perpétue l'art culinaire turc avec passion et générosité.</p>
+            <p data-i18n="footer.introLine2">Des viandes savoureuses, des grillades au feu de braise et des recettes authentiques d'Anatolie.</p>
+            <p data-i18n="footer.introLine3">Un accueil chaleureux dans le respect des traditions et du partage.</p>
+          </div>
+          <div class="footer-since-tag" data-i18n="footer.sinceTag">Depuis 1992 · Maison fondée à Dreux</div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer.navTitle">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#accueil" class="footer-link" data-i18n="nav.home">Accueil</a></li>
+            <li><a href="#histoire" class="footer-link" data-i18n="nav.about">Notre histoire</a></li>
+            <li><a href="#specialites" class="footer-link" data-i18n="nav.specialties">Spécialités</a></li>
+            <li><a href="#menu" class="footer-link" data-i18n="nav.menu">Menu</a></li>
+            <li><a href="#avis-clients" class="footer-link" data-i18n="nav.reviews">Avis clients</a></li>
+            <li><a href="#horaires" class="footer-link" data-i18n="nav.hours">Horaires</a></li>
+            <li><a href="#reservation" class="footer-link" data-i18n="nav.bookBtn">Réservation</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: All 12 Menu Categories Links -->
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer.categoriesTitle">Nos 12 Catégories</h4>
+          <div class="footer-categories-grid">
+            <ul class="footer-links-list">
+              <li><a href="#menu" class="footer-link" data-menu-category="sandwichs">Sandwichs</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="panini">Panini</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="crudites">Crudités</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="barquettes-frites">Frites</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="barquettes-viande">Viande seule</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="assiettes">Assiettes</a></li>
+            </ul>
+            <ul class="footer-links-list">
+              <li><a href="#menu" class="footer-link" data-menu-category="lahmacun">Lahmacun</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="salades">Salades</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="desserts">Desserts</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="boissons">Boissons</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="menu-enfant">Menu enfant</a></li>
+              <li><a href="#menu" class="footer-link" data-menu-category="supplements">Suppléments</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Col 4: Contact & Opening Hours -->
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer.contactTitle">Coordonnées & Horaires</h4>
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <div>
+              <strong data-i18n="footer.addressLabel">Adresse :</strong><br>
+              <span data-i18n="footer.addressValue">3 rue Saint-Thibault, 28100 Dreux, France</span>
+            </div>
+          </div>
+
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <div>
+              <strong data-i18n="footer.phoneLabel">Téléphone :</strong><br>
+              <a href="tel:0237558597" style="color: var(--color-gold); font-weight: 700;" data-i18n="footer.phoneValue">02 37 55 85 97</a>
+            </div>
+          </div>
+
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <div>
+              <strong data-i18n="footer.hoursLabel">Horaires :</strong><br>
+              <span data-i18n="footer.hoursValue">11 H – 1 H, 7 jours sur 7</span>
+            </div>
+          </div>
+
+          <!-- Social Icons (WhatsApp, Facebook, Instagram) -->
+          <div class="footer-socials">
+            <a href="https://wa.me/33237558597" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="WhatsApp Restaurant Istanbul">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook Restaurant Istanbul Dreux">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram Restaurant Istanbul Dreux">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div data-i18n="footer.copyright">© 2026 Restaurant Istanbul Dreux. Tous droits réservés.</div>
+        <button type="button" class="back-to-top-btn" id="back-to-top" aria-label="Retour en haut de la page">
+          <span data-i18n="footer.backToTop">Retour en haut</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/menu-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
